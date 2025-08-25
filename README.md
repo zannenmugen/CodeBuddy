@@ -1,12 +1,6 @@
 
 <h1><p>CodeBuddy</p></h1>
 
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://twitter.com/zannenmugen">
-    <img alt="Twitter: zannenmugen" src="https://img.shields.io/twitter/follow/zannenmugen.svg?style=social" target="_blank" />
-  </a>
-</p>
 
 > An autocompleter for code editors based on [OpenAI GPT-2](https://github.com/openai/gpt-2).
 
@@ -15,7 +9,7 @@
 
 With this project, I aim to create a **Deep Learning Based Autocompleter** such that anyone can run it on their own computer easily. Thus, coding will be more easier and fun!
 
-![CodeBuddy demo GIF](img/python1.gif)
+
 ## Installation
 
 ### With Docker
@@ -69,7 +63,7 @@ curl -X POST \
   -d '{"text":"import os\nimport sys\n# Count lines of codes in the given directory, separated by file extension.\ndef main(directory):\n  line_count = {}\n  for filename in os.listdir(directory):\n    _, ext = os.path.splitext(filename)\n    if ext not"}'
   ```
 
-  > Check out the [gist here](https://gist.github.com/zannenmugen/1e41197a6a2f7a9a654a0df9bd932290) for a `docker-compose` file.
+
 
 ## Finetuning The Model
 Even you can finetune (re-train over) the model with/for your code files. Just follow the `Max Woolf's` [gpt-2-simple](https://github.com/minimaxir/gpt-2-simple) or `Neil Shepperd's` [gpt-2](https://github.com/nshepperd/gpt-2) repositories with **`345M`** version. But don't forget to replace checkpoint (model) with the one in this repository.
