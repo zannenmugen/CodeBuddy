@@ -10,13 +10,12 @@
 
 > An autocompleter for code editors based on [OpenAI GPT-2](https://github.com/openai/gpt-2).
 
-### 🏠 [Homepage](https://usegalois.com)
 
-**Galois** is an auto code completer for code editors (or any text editor) based on [OpenAI GPT-2](https://github.com/openai/gpt-2). It is trained (finetuned) on a curated list of approximately 45K Python (~470MB) files gathered from the Github. Currently, it just works properly on Python but not bad at other languages (thanks to GPT-2's power). 
+**CodeBuddy** is an auto code completer for code editors (or any text editor) based on [OpenAI GPT-2](https://github.com/openai/gpt-2). It is trained (finetuned) on a curated list of approximately 45K Python (~470MB) files gathered from the Github. Currently, it just works properly on Python but not bad at other languages (thanks to GPT-2's power). 
 
-This repository now contains the very first release of the **Galois Project**. With this project, I aim to create a **Deep Learning Based Autocompleter** such that anyone can run it on their own computer easily. Thus, coding will be more easier and fun!
+With this project, I aim to create a **Deep Learning Based Autocompleter** such that anyone can run it on their own computer easily. Thus, coding will be more easier and fun!
 
-![Galois demo GIF](img/python1.gif)
+![CodeBuddy demo GIF](img/python1.gif)
 ## Installation
 
 ### With Docker
